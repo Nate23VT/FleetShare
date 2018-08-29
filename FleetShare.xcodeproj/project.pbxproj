@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1821D2DB213628860022409F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821D2DA213628860022409F /* AppDelegate.swift */; };
+		1821D2DD213628860022409F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821D2DC213628860022409F /* ViewController.swift */; };
+		1821D2E0213628860022409F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821D2DE213628860022409F /* Main.storyboard */; };
+		1821D2E2213628860022409F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1821D2E1213628860022409F /* Assets.xcassets */; };
+		1821D2E5213628860022409F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821D2E3213628860022409F /* LaunchScreen.storyboard */; };
+		1821D2F0213628860022409F /* FleetShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821D2EF213628860022409F /* FleetShareTests.swift */; };
+		1821D2FB213628860022409F /* FleetShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821D2FA213628860022409F /* FleetShareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1821D2EC213628860022409F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1821D2CF213628860022409F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1821D2D6213628860022409F;
+			remoteInfo = FleetShare;
+		};
+		1821D2F7213628860022409F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1821D2CF213628860022409F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1821D2D6213628860022409F;
+			remoteInfo = FleetShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1821D2D7213628860022409F /* FleetShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleetShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821D2DA213628860022409F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1821D2DC213628860022409F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1821D2DF213628860022409F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1821D2E1213628860022409F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1821D2E4213628860022409F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1821D2E6213628860022409F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1821D2EB213628860022409F /* FleetShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821D2EF213628860022409F /* FleetShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetShareTests.swift; sourceTree = "<group>"; };
+		1821D2F1213628860022409F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1821D2F6213628860022409F /* FleetShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1821D2FA213628860022409F /* FleetShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetShareUITests.swift; sourceTree = "<group>"; };
+		1821D2FC213628860022409F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1821D2D4213628860022409F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821D2E8213628860022409F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821D2F3213628860022409F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1821D2CE213628860022409F = {
+			isa = PBXGroup;
+			children = (
+				1821D2D9213628860022409F /* FleetShare */,
+				1821D2EE213628860022409F /* FleetShareTests */,
+				1821D2F9213628860022409F /* FleetShareUITests */,
+				1821D2D8213628860022409F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1821D2D8213628860022409F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1821D2D7213628860022409F /* FleetShare.app */,
+				1821D2EB213628860022409F /* FleetShareTests.xctest */,
+				1821D2F6213628860022409F /* FleetShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1821D2D9213628860022409F /* FleetShare */ = {
+			isa = PBXGroup;
+			children = (
+				1821D2DA213628860022409F /* AppDelegate.swift */,
+				1821D2DC213628860022409F /* ViewController.swift */,
+				1821D2DE213628860022409F /* Main.storyboard */,
+				1821D2E1213628860022409F /* Assets.xcassets */,
+				1821D2E3213628860022409F /* LaunchScreen.storyboard */,
+				1821D2E6213628860022409F /* Info.plist */,
+			);
+			path = FleetShare;
+			sourceTree = "<group>";
+		};
+		1821D2EE213628860022409F /* FleetShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				1821D2EF213628860022409F /* FleetShareTests.swift */,
+				1821D2F1213628860022409F /* Info.plist */,
+			);
+			path = FleetShareTests;
+			sourceTree = "<group>";
+		};
+		1821D2F9213628860022409F /* FleetShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1821D2FA213628860022409F /* FleetShareUITests.swift */,
+				1821D2FC213628860022409F /* Info.plist */,
+			);
+			path = FleetShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1821D2D6213628860022409F /* FleetShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1821D2FF213628860022409F /* Build configuration list for PBXNativeTarget "FleetShare" */;
+			buildPhases = (
+				1821D2D3213628860022409F /* Sources */,
+				1821D2D4213628860022409F /* Frameworks */,
+				1821D2D5213628860022409F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FleetShare;
+			productName = FleetShare;
+			productReference = 1821D2D7213628860022409F /* FleetShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1821D2EA213628860022409F /* FleetShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1821D302213628860022409F /* Build configuration list for PBXNativeTarget "FleetShareTests" */;
+			buildPhases = (
+				1821D2E7213628860022409F /* Sources */,
+				1821D2E8213628860022409F /* Frameworks */,
+				1821D2E9213628860022409F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1821D2ED213628860022409F /* PBXTargetDependency */,
+			);
+			name = FleetShareTests;
+			productName = FleetShareTests;
+			productReference = 1821D2EB213628860022409F /* FleetShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1821D2F5213628860022409F /* FleetShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1821D305213628860022409F /* Build configuration list for PBXNativeTarget "FleetShareUITests" */;
+			buildPhases = (
+				1821D2F2213628860022409F /* Sources */,
+				1821D2F3213628860022409F /* Frameworks */,
+				1821D2F4213628860022409F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1821D2F8213628860022409F /* PBXTargetDependency */,
+			);
+			name = FleetShareUITests;
+			productName = FleetShareUITests;
+			productReference = 1821D2F6213628860022409F /* FleetShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1821D2CF213628860022409F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nathan Worcester";
+				TargetAttributes = {
+					1821D2D6213628860022409F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SK682YE4Q7;
+						ProvisioningStyle = Automatic;
+					};
+					1821D2EA213628860022409F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SK682YE4Q7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1821D2D6213628860022409F;
+					};
+					1821D2F5213628860022409F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SK682YE4Q7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1821D2D6213628860022409F;
+					};
+				};
+			};
+			buildConfigurationList = 1821D2D2213628860022409F /* Build configuration list for PBXProject "FleetShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1821D2CE213628860022409F;
+			productRefGroup = 1821D2D8213628860022409F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1821D2D6213628860022409F /* FleetShare */,
+				1821D2EA213628860022409F /* FleetShareTests */,
+				1821D2F5213628860022409F /* FleetShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1821D2D5213628860022409F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821D2E5213628860022409F /* LaunchScreen.storyboard in Resources */,
+				1821D2E2213628860022409F /* Assets.xcassets in Resources */,
+				1821D2E0213628860022409F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821D2E9213628860022409F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821D2F4213628860022409F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1821D2D3213628860022409F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821D2DD213628860022409F /* ViewController.swift in Sources */,
+				1821D2DB213628860022409F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821D2E7213628860022409F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821D2F0213628860022409F /* FleetShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1821D2F2213628860022409F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1821D2FB213628860022409F /* FleetShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1821D2ED213628860022409F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1821D2D6213628860022409F /* FleetShare */;
+			targetProxy = 1821D2EC213628860022409F /* PBXContainerItemProxy */;
+		};
+		1821D2F8213628860022409F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1821D2D6213628860022409F /* FleetShare */;
+			targetProxy = 1821D2F7213628860022409F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1821D2DE213628860022409F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1821D2DF213628860022409F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1821D2E3213628860022409F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1821D2E4213628860022409F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1821D2FD213628860022409F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1821D2FE213628860022409F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1821D300213628860022409F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SK682YE4Q7;
+				INFOPLIST_FILE = FleetShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nw.FleetShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1821D301213628860022409F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SK682YE4Q7;
+				INFOPLIST_FILE = FleetShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nw.FleetShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1821D303213628860022409F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SK682YE4Q7;
+				INFOPLIST_FILE = FleetShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nw.FleetShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetShare.app/FleetShare";
+			};
+			name = Debug;
+		};
+		1821D304213628860022409F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SK682YE4Q7;
+				INFOPLIST_FILE = FleetShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nw.FleetShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleetShare.app/FleetShare";
+			};
+			name = Release;
+		};
+		1821D306213628860022409F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SK682YE4Q7;
+				INFOPLIST_FILE = FleetShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nw.FleetShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FleetShare;
+			};
+			name = Debug;
+		};
+		1821D307213628860022409F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SK682YE4Q7;
+				INFOPLIST_FILE = FleetShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nw.FleetShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FleetShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1821D2D2213628860022409F /* Build configuration list for PBXProject "FleetShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821D2FD213628860022409F /* Debug */,
+				1821D2FE213628860022409F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1821D2FF213628860022409F /* Build configuration list for PBXNativeTarget "FleetShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821D300213628860022409F /* Debug */,
+				1821D301213628860022409F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1821D302213628860022409F /* Build configuration list for PBXNativeTarget "FleetShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821D303213628860022409F /* Debug */,
+				1821D304213628860022409F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1821D305213628860022409F /* Build configuration list for PBXNativeTarget "FleetShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1821D306213628860022409F /* Debug */,
+				1821D307213628860022409F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1821D2CF213628860022409F /* Project object */;
+}
